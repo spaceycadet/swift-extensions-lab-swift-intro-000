@@ -1,14 +1,14 @@
-#Extensions Lab 
+# Extensions Lab 
 
 ## Overview
 
 In this lab, you'll practice creating extensions on classes, and calling and printing values associated with those extensions. 
 
-##Instructions
+## Instructions
 
 Open the workspace and create a new empty Swift file called ```Extensions```. This is where you're going to create all of the extensions. Remember to run often but without the declaration of the objects and functions listed below you won't be able to run the tests. But you can always use the console to make sure your getting the correct output. 
 
-###String
+### String
 1. Create an extension function for the ```String``` class called ```whisper()```
   * Returns a ```String``` in lowerscase to create a whispering effect
 2. Create a ```String``` extension function for the ```String``` class called ```shout()```
@@ -25,7 +25,7 @@ Open the workspace and create a new empty Swift file called ```Extensions```. Th
   * Hint - This is still an extension on the String class
   * Note - Y is to be taken as a consonant even though it frequently carries a vowel sound. See Jim for more info
 
-###Int
+### Int
 2. Create an extension function for the ```Int``` class called ```half()```
   * Halves itself
 3. Create an extension function for the ```Int``` class called ```isDivisible(by:)``` with the name of the argument being number.
@@ -37,7 +37,7 @@ Open the workspace and create a new empty Swift file called ```Extensions```. Th
 5. Create an extension computed property for the ```Int``` class called ```halved```
   * Halves itself by calling a function
 
-##Using Your Extensions (this is not tested)
+## Using Your Extensions (this is not tested)
 In ```ViewController.swift``` inside the function body of ```viewDidLoad()```:
 
 1. Create a ```String``` object with the value as your full name called ```fullName``` 
@@ -45,7 +45,7 @@ In ```ViewController.swift``` inside the function body of ```viewDidLoad()```:
 3. Print the value of the extension computed properties on ```fullName``` and ```phoneNumber```
 4. Call all of your ```String``` and ```Int``` functions on your name and print them to the console
 
-###Emoji
+### Emoji
 1.Create a computed extension property on ```String``` called ```unicornLevel```
 
   * Calculates one unicorn for each character in the recipient ```String```
